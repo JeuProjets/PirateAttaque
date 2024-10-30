@@ -1,0 +1,40 @@
+Titre du jeu : "Pirate Attaque"
+Concept :
+Dans ce jeu d'action-aventure, tu incarnes un pirate déterminé à défendre ta forteresse contre des vagues d'ennemis. Pour cela, tu dois explorer l'île et une épave de bateau pour collecter des boulets de canon afin de les utiliser dans les canons de ta tour.
+
+Mécaniques de jeu :
+1. Exploration
+
+Environnement : L'île est divisée en plusieurs zones : la plage, la forêt, l'épave de bateau, et la tour. Chaque zone contient des énigmes, et des coffres.
+Épave de bateau : Un ancien navire échoué sur la côte.
+
+2.Collecte de ressources
+
+Coffres : Dans chaque zone, il y a des coffres dissimulés contenant des boulets de canon. Certains coffres sont faciles d'accès, tandis que d'autres nécessitent de résoudre des énigmes ou de vaincre des ennemis.
+Boulets de canon : Chaque coffre contient un nombre aléatoire de boulets de canon. Tu dois en collecter un certain nombre pour pouvoir tirer avec les canons de ta tour.
+
+3. Gestion des ressources
+
+Capacité de stockage : Ton personnage a une capacité limitée pour transporter des boulets. Tu dois donc faire des choix sur ce que tu veux ramasser à chaque fois.
+Inventaire : Gère ton inventaire pour optimiser le transport des boulets, en faisant attention à ne pas être surchargé.
+
+4. Défense de la tour :
+
+Positionnement : Lorsque tu es dans la tour, tu peux utiliser les canons pour tirer sur les vagues d'ennemis qui s'approchent. Chaque tir consomme des boulets de canon.
+Améliorations : Entre les vagues, utilise les ressources collectées pour améliorer les canons de la tour (augmenter la portée, la puissance, etc.).
+
+5. Ennemis :
+
+Types d'ennemis : Les vagues d'ennemis varient. Certains bateaux peuvent être plus résistants ou plus rapides.
+Boss de niveau : À la fin de certains niveaux, un boss apparaît, nécessitant d'utiliser plus de boulets de canons pour le vaincre.
+
+6. Énigmes et défis :
+
+Énigmes : Pour ouvrir certains coffres ou accéder à des zones cachées, tu devras résoudre des énigmes ou des casse-têtes, ce qui ajoute une dimension de réflexion au jeu.
+Défis environnementaux : Certains endroits peuvent nécessiter des compétences spécifiques (comme escalader des rochers ou traverser des zones marécageuses) pour accéder à des coffres.
+
+FACULTATIF
+8. Progression :
+
+Niveaux : Le jeu est divisé en niveaux, chacun ayant son propre environnement et des défis. À chaque nouveau niveau, la difficulté augmente et les ennemis deviennent plus variés.
+Développement du personnage : En collectant des ressources et en réussissant des niveaux, tu peux débloquer des compétences spéciales pour ton personnage (comme des attaques spéciales ou des compétences de défense).
