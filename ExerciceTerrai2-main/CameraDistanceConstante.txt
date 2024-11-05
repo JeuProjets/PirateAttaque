@@ -1,0 +1,7 @@
+CameraDistanceConstante
+public gameObject cibeASuivre;
+public Vector3 laDistance;
+
+update(){
+	transform.position = cibleASuivre.transformPosition + laDistance
+}

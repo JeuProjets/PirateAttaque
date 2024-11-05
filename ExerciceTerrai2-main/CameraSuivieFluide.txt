@@ -1,0 +1,9 @@
+CameraSuivieFluide
+public gameObject cibeASuivre;
+public Vector3 laDistance;
+
+
+update(){
+	Vector3 posFinale = laCibleASuivre.transform.TransformPoint(laDistance);
+	transform.position = Vector3.Lerp(transform.position,posFinale. 0.01f);
+	transform.LookAt(cibleASuivre.transform);

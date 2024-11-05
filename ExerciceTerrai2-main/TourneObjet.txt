@@ -1,0 +1,24 @@
+
+
+
+
+if(Input.GetKeyDown(KeyCode.Return))
+{
+	MoteurEnMarche = !moteurEnMarche;
+}
+
+if(MoteurEnMarche)
+{
+	if(vitesseRotation.y <vitesseRotationMax)
+	{
+		vitesseRotation.y += acceleration;
+	}
+	else
+	{
+		if(vitesseRotation.y >0)
+		{
+			vitesseRotation.y = Mathf.Clamp(vitesseRotation.y -= acceleration,0f,vitesseRotationMax);
+		}
+	}
+
+	transform.Rotate(vitesseRotation * Time.deltaTime)
