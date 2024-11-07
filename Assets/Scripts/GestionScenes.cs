@@ -11,6 +11,7 @@ public class GestionScenes : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Mettre un addListener pour savoir lorsque le bouton est cliqué
         boutonCommencer.onClick.AddListener(boutonCliquer);
 
     }
@@ -20,6 +21,7 @@ public class GestionScenes : MonoBehaviour
     {
 
     }
+    //Changer vers la scene principal
     void boutonCliquer()
     {
         SceneManager.LoadScene("SceneTerrain");

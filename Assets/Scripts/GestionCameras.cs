@@ -8,7 +8,9 @@ public class GestionCameras : MonoBehaviour
     public GameObject cameraSol;
     // Start is called before the first frame update
     void Start()
+
     {
+        //On commence avec le personnage au sol.
         cameraSol.SetActive(true);
         cameraTour.SetActive(false);
     }
@@ -16,6 +18,7 @@ public class GestionCameras : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Lorsque la touche espace est appuyée, la fonction qui change la camera(le personnage) est appelée.
         if (Input.GetKeyDown(KeyCode.Space))
         {
             ChangerCameraPerso();
