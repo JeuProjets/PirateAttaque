@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4086174}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TerrainSol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,19 +881,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: ffa55b68f3cf8254e9f8245962103f98, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.32556814
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: ffa55b68f3cf8254e9f8245962103f98, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: ffa55b68f3cf8254e9f8245962103f98, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9455186
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: ffa55b68f3cf8254e9f8245962103f98, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: ffa55b68f3cf8254e9f8245962103f98, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -901,7 +901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: ffa55b68f3cf8254e9f8245962103f98, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -142
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: ffa55b68f3cf8254e9f8245962103f98, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -911,7 +911,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 400014, guid: ffa55b68f3cf8254e9f8245962103f98, type: 3}
-      insertIndex: 0
+      insertIndex: -1
       addedObject: {fileID: 1222971577}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100014, guid: ffa55b68f3cf8254e9f8245962103f98, type: 3}
@@ -992,6 +992,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 661464e19c087564badb2bf5230c842c, type: 3}
       propertyPath: m_Name
       value: TerrainSable (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 661464e19c087564badb2bf5230c842c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 661464e19c087564badb2bf5230c842c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2967,6 +2971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TerrainSable
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 661464e19c087564badb2bf5230c842c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 661464e19c087564badb2bf5230c842c, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.832
@@ -3175,6 +3183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TerrainSable (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 661464e19c087564badb2bf5230c842c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 661464e19c087564badb2bf5230c842c, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.832
@@ -3259,7 +3271,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1095199640}
     m_Modifications:
     - target: {fileID: 100014, guid: e30cc732ec6a2a04ab4da2cd7e818e32, type: 3}
       propertyPath: m_Name
@@ -3267,15 +3279,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: e30cc732ec6a2a04ab4da2cd7e818e32, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -979.31
+      value: 2.2278442
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: e30cc732ec6a2a04ab4da2cd7e818e32, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 55.52
+      value: 38.83
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: e30cc732ec6a2a04ab4da2cd7e818e32, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1255.1
+      value: 269.27283
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: e30cc732ec6a2a04ab4da2cd7e818e32, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3283,7 +3295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: e30cc732ec6a2a04ab4da2cd7e818e32, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: e30cc732ec6a2a04ab4da2cd7e818e32, type: 3}
       propertyPath: m_LocalRotation.y
@@ -3291,7 +3303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: e30cc732ec6a2a04ab4da2cd7e818e32, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: e30cc732ec6a2a04ab4da2cd7e818e32, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3815,6 +3827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TerrainGazon
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57d3eed6d2253d24994d5ad37e00aedc, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 57d3eed6d2253d24994d5ad37e00aedc, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.8929996
@@ -4309,6 +4325,7 @@ Transform:
   - {fileID: 1416970662}
   - {fileID: 291774996}
   - {fileID: 148341914}
+  - {fileID: 823063857}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1099004012
@@ -4691,7 +4708,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!4 &1141595248 stripped
 Transform:
@@ -4710,7 +4727,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5c80c9b45b85c7409b2a06498b9d9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vitesseDeplacementPerso: 20
+  vitesseRotationPerso: 2
+  vitesseDeplacementPerso: 5
 --- !u!1001 &1151051655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5189,7 +5207,7 @@ GameObject:
   - component: {fileID: 1222971576}
   m_Layer: 0
   m_Name: CameraSol
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5253,13 +5271,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222971574}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.48, y: 8.499999, z: -1.6899414}
+  m_LocalRotation: {x: 0, y: 0.9992862, z: -0, w: -0.03777727}
+  m_LocalPosition: {x: 0.49041748, y: 11.0199995, z: 0.2010498}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1141595248}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 184.33, z: 0}
 --- !u!1001 &1230818316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5700,6 +5718,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d4ad967689295ba4eaf8baeaebc8721b, type: 3}
       propertyPath: m_Name
       value: TerrainRoche1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d4ad967689295ba4eaf8baeaebc8721b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4ad967689295ba4eaf8baeaebc8721b, type: 3}
       propertyPath: m_LocalScale.x
@@ -6206,6 +6228,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d4ad967689295ba4eaf8baeaebc8721b, type: 3}
       propertyPath: m_Name
       value: TerrainRoche2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d4ad967689295ba4eaf8baeaebc8721b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4ad967689295ba4eaf8baeaebc8721b, type: 3}
       propertyPath: m_LocalScale.x
@@ -8953,9 +8979,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 705507995}
   - {fileID: 1468238319}
-  - {fileID: 823063856}
-  - {fileID: 176898570}
   - {fileID: 1095199640}
   - {fileID: 988775942}
   - {fileID: 1116735900}
   - {fileID: 1599836147}
+  - {fileID: 176898570}
