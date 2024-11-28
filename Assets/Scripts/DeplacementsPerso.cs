@@ -113,7 +113,8 @@ public class DeplacementsPerso : MonoBehaviour
         float axeV = Input.GetAxisRaw("Vertical");
 
         // Créer un vecteur de déplacement local
-        Vector3 deplacement = new Vector3(axeH, 0, -axeV);
+        Vector3 deplacement = new Vector3(-axeH, -2f, -axeV);
+        //POUR LE SAUT Vector3 deplacement = new Vector3(-axeH, forceSaut + gravite, -axeV);
 
         // Normaliser pour éviter d'aller plus vite en diagonale
         if (deplacement.magnitude > 1f)
@@ -142,7 +143,7 @@ public class DeplacementsPerso : MonoBehaviour
         rotationX = Mathf.Clamp(rotationX, -90f, 90f); // Limiter entre -90° et +90°
 
         // Appliquer la rotation verticale uniquement à la caméra
-        cameraPerso.transform.localEulerAngles = new Vector3(rotationX, 0f, 0f);
+        cameraPerso.transform.localEulerAngles = new Vector3(rotationX, 180f, 0f);
     }
 }
 
