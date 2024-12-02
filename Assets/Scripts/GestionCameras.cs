@@ -19,9 +19,9 @@ public class GestionCameras : MonoBehaviour
     void Update()
     {
         //Lorsque la touche espace est appuyée, la fonction qui change la camera(le personnage) est appelée.
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            ChangerCameraPerso();
+                ChangerCameraPerso();
         }
 
     }
